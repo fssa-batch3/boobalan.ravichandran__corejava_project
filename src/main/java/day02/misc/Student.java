@@ -13,7 +13,7 @@ public class Student {
 	}
 
 	public void setName(String newName) {
-		newName = name;
+		name = newName;
 	}
 
 	public String getEmail() {
@@ -21,7 +21,7 @@ public class Student {
 	}
 
 	public void setEmail(String newEmail) {
-		newEmail = email;
+		email = newEmail;
 	}
 
 	public int getId() {
@@ -29,7 +29,7 @@ public class Student {
 	}
 
 	public void setId(int newId) {
-		newId = id;
+		id = newId;
 	}
 
 	static {
