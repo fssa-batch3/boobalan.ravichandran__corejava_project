@@ -6,7 +6,7 @@ class Logger {
 	}
 
 	public static void info(String msg) {
-		System.out.println("INFO: " + msg);
+		System.out.println("DEBUG: " + msg);
 	}
 
 	public static void error(String msg) {
