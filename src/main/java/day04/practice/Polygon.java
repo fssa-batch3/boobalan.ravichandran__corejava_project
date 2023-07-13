@@ -16,4 +16,6 @@ public abstract class Polygon {
 
 	public abstract double circumference();
 
+	public abstract double calculatePerimeter() ;
+
 }
