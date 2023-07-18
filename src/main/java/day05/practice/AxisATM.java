@@ -1,6 +1,6 @@
 package day05.practice;
 
-public class AxisATM implements ATM {
+class AxisATM implements ATM {
 	private static final double WITHDRAWAL_CHARGES = 5.0;
 
 	@Override
@@ -14,6 +14,11 @@ public class AxisATM implements ATM {
 		if (account.getBalance() < 5000) {
 			throw new Exception("Insufficient balance to withdraw");
 		}
+
+		if (amount > account.getBalance()) {
+			throw new Exception("Withdrawal amount exceeds account balance");
+		}
+
 		double totalAmount = amount + WITHDRAWAL_CHARGES;
 		if (account.getBalance() >= totalAmount) {
 			account.setBalance(account.getBalance() - totalAmount);
@@ -31,5 +36,4 @@ public class AxisATM implements ATM {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
 }
