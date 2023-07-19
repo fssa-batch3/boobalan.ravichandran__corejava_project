@@ -2,10 +2,7 @@ package day08.solved;
 
 import java.util.HashMap;
 
-/**
- * @author BharathwajSoundarara
- *
- */
+
 public class HashMapDemo {
 	public static void main(String[] args) {
 
