@@ -1,4 +1,4 @@
-package day08.solved;
+package day08.practice;
 
 import java.util.*;
 
