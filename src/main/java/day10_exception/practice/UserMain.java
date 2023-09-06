@@ -16,7 +16,7 @@ class User {
 }
 
 class UserRegistration {
-	ArrayList<User> userList = new ArrayList<>();;
+	ArrayList<User> userList = new ArrayList<>();
 
 	public void register(User user) throws UserAlreadyExistsException {
 		for (User existingUser : userList) {

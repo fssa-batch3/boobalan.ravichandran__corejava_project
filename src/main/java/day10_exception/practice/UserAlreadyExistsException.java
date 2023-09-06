@@ -6,3 +6,4 @@ class UserAlreadyExistsException extends Exception {
         super(message);
     }
 }
+
